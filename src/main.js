@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 
 import firebase from 'firebase'
+import './quasar'
 
 Vue.config.productionTip = false
 
