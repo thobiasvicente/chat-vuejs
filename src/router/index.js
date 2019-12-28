@@ -10,6 +10,11 @@ const routes = [
   {
     path: '/',
     name: 'home',
+    component: Home
+  },
+  {
+    path: '/chat',
+    name: 'chat',
     component: PrivateChat
   },
   {
