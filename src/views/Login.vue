@@ -1,10 +1,24 @@
 <template>
-  <div>
-    <h3>Please Login with your google account to continue</h3>
-    <button @click="login">Login with google</button>
+  <div class="container">
+    <div class="q-pa-md row items-start q-gutter-md">
+      <q-card class="my-card">
+        <img src="https://cdn.quasar.dev/img/mountains.jpg" />
+
+        <q-card-section>
+          <q-btn color="primary" style="width: 200px">
+            <div class="ellipsis">
+              login
+            </div>
+          </q-btn>
+        </q-card-section>
+
+        <q-card-section>
+          {{ lorem }}
+        </q-card-section>
+      </q-card>
+    </div>
   </div>
 </template>
-
 <script>
 import firebase from "firebase";
 
