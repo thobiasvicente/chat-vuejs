@@ -1,4 +1,4 @@
-# ytfirebasevuechat
+# Chat with vue.js and firebase
 
 ## Project setup
 ```
